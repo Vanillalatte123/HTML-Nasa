@@ -1,0 +1,111 @@
+/*this is universal selector. this is for whole page.*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+}
+/*this is header css. this header for design header at html files.*/
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("background.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/*this is ul css for design ul only */
+ul {
+    list-style-type: none;
+    float: right;
+    margin: 20px;
+}
+/*this for design ul & li*/
+ul li {
+    display: inline-block;
+}
+/*this for designing ul li & a*/
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+}
+/*this is for putting some effects where you hover the mouse to navigation bar this navigation bar will change the color*/
+ul li a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/*this is for static color at navigation bar*/
+ul li.active a{
+    background-color: #ffffff;
+    color: black;
+}
+/*this is for contain my logo*/
+.logo img {
+    float: left;
+    width: 50px;
+    height: auto;
+    margin: 15px;
+}
+/*this is main content design*/
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+/*this is title for inside webpage title*/
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}/*this for design h1 inside title*/
+.title h1 {
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+/*this is button css*/
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn {
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.6s;
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/*this is for positioning the audio */
+audio {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+/*this for design your footer*/
+footer {
+    background-color: cornflowerblue;
+    color: maroon;
+    text-align: center;
+    padding: 20px;
+}
+/*this is div id design in this webpage*/
+#new {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*this border for put forms*/
+.border {
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    
+}
